@@ -8,6 +8,52 @@ body {
     text-align: center;
 }
 
+/* Wrapper styles */
+.wrapper {
+  max-width: 600px;
+  margin: 10px 500px;
+}
+
+/* Navigation styles */
+nav {
+  background-color: rgb(113, 113, 113);
+  color: #f0f0f0;
+  padding: 10px 5px;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.content {
+  width: 90px;
+  margin: 5px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.links {
+  list-style: none;
+  display: flex;
+}
+
+.links li {
+  padding: 0 20px;
+}
+
+.links li a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-top: 5px;
+}
+
+.links li a.active,
+.links li a:hover {
+  color: black;
+  text-shadow: 0 0 10px #757575;
+  transition: 0.25s;
+}
+
 h1, h2 {
     text-align: center;
 }
