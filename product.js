@@ -63,7 +63,7 @@ document.getElementById("place-order").addEventListener("click", function() {
 
     // Send the order message to WhatsApp
     if (totalAmount > 0) {
-        const whatsappUrl = `https://wa.me/9480112211?text=${encodeURIComponent(orderMessage)}`;
+        const whatsappUrl = `https://wa.me/9514495944?text=${encodeURIComponent(orderMessage)}`;
         window.open(whatsappUrl, "_blank");
     } else {
         alert("Please select at least one product to place the order.");
